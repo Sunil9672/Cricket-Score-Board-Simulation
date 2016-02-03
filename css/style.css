@@ -1,0 +1,146 @@
+/*body { padding-top: 92px; }*/
+
+
+a{
+    /*color: #f5f5f5; */
+}
+#bg1, #bg2, #bg3 {
+	z-index:50;
+  position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:300%;
+	background:url('../img/bubbles.png') repeat 0 0;
+}
+
+#bg2 {
+	z-index:49;
+  opacity: 0.5;
+	background-image: url('../img/stars-and-planets-bg.jpg');
+}
+
+#bg3 {
+	z-index:48;
+	background-image:url('../img/stars-and-planets-bg.jpg');
+}
+
+/**
+  * important: keep position fixed, you can however use top:0 instead of bottom:0
+  * if you want to make it stick to the top of the browser
+  */
+.scroll
+{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+/**
+  * z-index ordering of the different layers, do this for your layers,
+  * also assign absolute width (to prevent issues if the script gets executed before the images get loaded)
+  */
+.horizon
+{
+  z-index: 1;
+  width: 3000px;
+}
+
+.middle
+{
+  z-index: 500;
+  width: 4000px;
+}
+
+.front
+{
+  z-index: 1000;
+  width: 6000px;
+}
+.quote-orng{
+/*    background: url('../img/logo-quote-orng.png') no-repeat;*/
+    vertical-align: middle;
+    text-align: center;
+    padding: 28px 28px 24px 32px;
+    color: whitesmoke;
+    font-weight: lighter;
+    display: inline-block;
+
+}
+
+.box {
+  /*  background-color: #FFFFFF;*/
+    border: 1px solid #CCCCCC;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 32px;
+}
+
+.brand-box{
+    left: 145px;
+    margin: 0 !important;
+    padding: 30px 29px 20px !important;
+    position: absolute;
+    top: -25px;
+    width: 120px;
+}
+/*.form {*/
+    /*max-width: 330px;*/
+    /*padding: 15px;*/
+    /*margin: 0 auto;*/
+/*}*/
+.form .form-heading,
+.form .checkbox {
+    margin-bottom: 10px;
+}
+.form .checkbox {
+    font-weight: normal;
+}
+.form .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    margin: 10px 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width:100%
+}
+.form .form-control:focus {
+    z-index: 2;
+}
+/*.form input[type="text"] {*/
+    /*margin-bottom: -1px;*/
+    /*border-bottom-left-radius: 0;*/
+    /*border-bottom-right-radius: 0;*/
+/*}*/
+/*.form input[type="password"] {*/
+    /*margin-bottom: 10px;*/
+    /*border-top-left-radius: 0;*/
+    /*border-top-right-radius: 0;*/
+/*}*/
+
+.featurette-divider {
+    margin: 80px 0;
+}
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+
+@media (min-width: 768px) {
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .featurette-heading {
+        margin-top: 120px;
+    }
+}
