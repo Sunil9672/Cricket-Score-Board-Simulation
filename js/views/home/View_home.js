@@ -3,7 +3,7 @@ define([
     'underscore',
     'backbone',
     'skrollr',
-    'text!templates/home/Tmpl_home.html',
+    'text!templates/home/tmpl_home.html',
     'views/footer/View_footer',
     'views/navbar/View_navbar',
     '../../libs/horizontalScroll/jquery.jInvertScroll.min'
