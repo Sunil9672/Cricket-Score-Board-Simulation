@@ -5,9 +5,11 @@ define([
   'backbone',
   'router',
   'skrollr',
+  'parallax'
+
 //  'horizontalScroll'
 
-], function($, _, Backbone, Router, Skrollr ){
+], function($, _, Backbone, Router, Skrollr, Parallax ){
   var initialize = function(){
     Router.initialize();
   };

@@ -3,9 +3,11 @@ require.config({
     jquery: 'libs/jquery/jquery-min',
     underscore: 'libs/underscore/underscore-min',
     backbone: 'libs/backbone/backbone-min',
+    parallax: 'libs/parallax/parallax.min',
     bootstrap: 'libs/bootstrap/bootstrap-min',
     skrollr: 'libs/Skrollr/skrollr.min',
-    templates: '../templates'
+    templates: '../templates',
+
   }
 });
 
