@@ -1,0 +1,19 @@
+{
+  "name"          : "cricketnode",
+  "version"       : "1.0.0",
+  "description"   : "simulates match in the backend using nodejs",
+  "main"          : "index.js",
+  "scripts"       : {
+        "start"     : "node index.js",
+        "test"      : "./node_modules/.bin/mocha --reporter spec",
+        "server"    : "node index.js"
+  },
+  "author"        : "Divya Gupta",
+  "license"       : "ISC",
+  "dependencies"  : {
+        "chai"      : "^3.5.0",
+        "express"   : "4.14.0",
+        "mocha"     : "3.0.2",
+        "request"   : "^2.74.0"
+  }
+}
