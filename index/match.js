@@ -1,5 +1,5 @@
 const MatchSimulator  = require('../match/matchSimulator');
-const MatchStat       = require('../match/matchstats');
+const MatchStat       = require('../match/matchStats');
 
 var Match = function (teams) {
 
