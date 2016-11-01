@@ -5,14 +5,14 @@ This is a problem to simulate a cricket match with 4 players, in the last 4 over
 
 Every batsman has the following probability,
 
-![Alt text](https://github.com/DivyaGupta261/Cricket-Score-Board-Simulation/blob/master/screenshots/ProbabilityOfPlayers.jpg)
+![Alt text](https://raw.githubusercontent.com/DivyaGupta261/Cricket-Score-Board-Simulation/master/screenshots/ProbabilityOfPlayers.jpg)
 
 Back End :
 ---------
 
 The sample scoreboard output goes something like this,
 
-![Alt text](https://github.com/DivyaGupta261/Cricket-Score-Board-Simulation/blob/master/screenshots/SampleOutput.jpg)
+![Alt text](https://raw.githubusercontent.com/DivyaGupta261/Cricket-Score-Board-Simulation/master/screenshots/SampleOutput.jpg)
 
 It is implemented in the back end using nodejs.
 
@@ -22,8 +22,7 @@ Front End :
 -----------
 
 The front end is also implemented for this problem, and it looks something like this,
-
-![Alt text](https://github.com/DivyaGupta261/Cricket-Score-Board-Simulation/blob/master/screenshots/FrontEnd.png)
+![Alt text](https://raw.githubusercontent.com/DivyaGupta261/Cricket-Score-Board-Simulation/master/screenshots/FrontEnd.png)
 
 it can be viewed here,
 
@@ -56,6 +55,6 @@ Update :
 
 This code cleared the evaluation with a score of 4.2/5.
 
-![Alt text](https://github.com/DivyaGupta261/Cricket-Score-Board-Simulation/blob/master/screenshots/GeektrustScore.jpg)
+![Alt text](https://raw.githubusercontent.com/DivyaGupta261/Cricket-Score-Board-Simulation/master/screenshots/GeektrustScore.jpg)
 
 Also received a lot of badges :)
